@@ -5,4 +5,3 @@ class ItemSerializer < ActiveModel::Serializer
     scope == object.user
   end
 end
-end
