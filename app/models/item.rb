@@ -3,5 +3,5 @@ class Item < ApplicationRecord
   validates :name,
     presence: true
   validates :quantity,
-  numericality: { only_integer: true }
+  numericality: { only_integer: true }, :allow_nil => true
 end
