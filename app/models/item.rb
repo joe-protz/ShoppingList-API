@@ -1,5 +1,5 @@
 class Item < ApplicationRecord
-  belongs_to :user
+  belongs_to :user, :through => :list
   validates :name,
     presence: true
   validates :quantity,
