@@ -3,14 +3,11 @@ class ItemsController < ProtectedController
 
   # GET /items
   def index
-    @lists = current_user.lists.all
     @items = current_user.lists.find(params[:list_id]).items.all
-
     render json: @items
   end
 
 def show 
- 
  render json: @item
 end
   # POST /items
@@ -18,7 +15,7 @@ end
     @item = current_user.lists.find(params[:list_id]).items.build(item_params)
 
     if @item.save
-      render json: @item, status: :created, location: @item
+      render json: @item, status: :created
     else
       render json: @item.errors, status: :unprocessable_entity
     end
