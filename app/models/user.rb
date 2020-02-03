@@ -3,6 +3,7 @@
 class User < ApplicationRecord
   include Authentication
   has_many :examples
-  has_many :items,:through => :list
   has_many :lists
+  has_many :items,:through => :lists
+  
 end
