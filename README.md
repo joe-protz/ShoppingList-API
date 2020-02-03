@@ -60,7 +60,8 @@ Overall I have enjoyed this project and will be working towards those stretch go
 - Rails
 - Heroku 
 
-### ERD
+### ERDs(In order of creation)
 - ![ERD](https://i.imgur.com/maVkigc.jpg)
+![ERD For creating multiple lists](https://i.imgur.com/WIDf3lF.jpg)
 ### Unsolved Problems
 I would really like to stretch my goals well beyond their current state. I would like my client and api to work together in order to allow multiple lists, and much more rigorous validation and specific error notifications that tell you what is wrong. End goal would be multiple users sharing a list with full access.
