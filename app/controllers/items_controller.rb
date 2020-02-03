@@ -7,9 +7,10 @@ class ItemsController < ProtectedController
     render json: @items
   end
 
-def show 
- render json: @item
-end
+  def show 
+  render json: @item
+  end
+
   # POST /items
   def create
     @item = current_user.lists.find(params[:list_id]).items.build(item_params)
