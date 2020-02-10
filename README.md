@@ -46,7 +46,7 @@ Overall I have enjoyed this project and will be working towards those stretch go
  - As a user, I would like if I could specify a quantity for the items in my list
 
 
-##STRETCH GOALS
+## STRETCH GOALS
 - As a user, I would like to be able to have multiple lists for different reasons
 - As a user, I would like these lists to be accessible from the nav pane in either a tabbed view or a dropdown list
 - As a user, I would like if I could share my list with another user so that either user would then have full access to the list.
