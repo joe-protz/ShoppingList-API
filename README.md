@@ -1,12 +1,12 @@
-
 # Web-Based Shopping List
 
-
 ## Important Links
+
 - [Shopping List Client Repo](https://github.com/joe-protz/ShoppingList-Client)
 - [Deployed Shopping List Client](https://joe-protz.github.io/ShoppingList-Client/)
 - [Deployed Heroku App](https://shopping-list-10994.herokuapp.com/)
-- [GitHub](https://joe-protz.github.io/)
+- [GitHub](https://www.github.com/joe-protz)
+- [Portfolio](https://joe-protz.github.io/#)
 - [LinkedIn](https://www.linkedin.com/in/joe-protz/)
 
 ## Planning Story
@@ -29,8 +29,6 @@ After this, I set out whiteboarding to come up with a non-clunky way to CRUD lis
 
 Overall I have enjoyed this project and will be working towards those stretch goals in the following days.
 
-
-
 ### User Stories
 
 - As a user, I would like to be able to sign up for this application
@@ -42,11 +40,11 @@ Overall I have enjoyed this project and will be working towards those stretch go
 - As a user I would like to be able to add items to my shopping list with a single 'add' button that does not refresh the app
 - As a user I would like to be able to delete an item by clicking a button attached to each item
 - As a user I would like to be able to be able to edit my items in my list
- - As a user, it would be nice if the text itself was editable and did not require a form
- - As a user, I would like if I could specify a quantity for the items in my list
-
+- As a user, it would be nice if the text itself was editable and did not require a form
+- As a user, I would like if I could specify a quantity for the items in my list
 
 ## STRETCH GOALS
+
 - As a user, I would like to be able to have multiple lists for different reasons
 - As a user, I would like these lists to be accessible from the nav pane in either a tabbed view or a dropdown list
 - As a user, I would like if I could share my list with another user so that either user would then have full access to the list.
@@ -58,10 +56,13 @@ Overall I have enjoyed this project and will be working towards those stretch go
 
 - Ruby
 - Rails
-- Heroku 
+- Heroku
 
 ### ERDs(In order of creation)
+
 - ![ERD](https://i.imgur.com/maVkigc.jpg)
-![ERD For creating multiple lists](https://i.imgur.com/WIDf3lF.jpg)
+  ![ERD For creating multiple lists](https://i.imgur.com/WIDf3lF.jpg)
+
 ### Unsolved Problems
+
 I would really like to stretch my goals well beyond their current state. I would like my client and api to work together in order to allow multiple lists, and much more rigorous validation and specific error notifications that tell you what is wrong. End goal would be multiple users sharing a list with full access.
